@@ -31,6 +31,14 @@ html {
   outline-color: #fff;
 }
 
+.banner a {
+  outline-color: #fff;
+}
+
+.banner h2 {
+  border-color: #fff;
+}
+
 .nav a span {
   border-bottom: .3rem solid #bea59b;
 }
@@ -43,6 +51,7 @@ html {
 .banner {
   min-height: 16em;
   color: #fff;
+  background-color: #522806;
 }
 
 .card {
@@ -53,15 +62,15 @@ html {
 
 .btn-light {
   background-color: #bea59b;
-  border-color: #bea59b;
+  border-color: #522806;
   color: #522806;
 }
 
 .btn-light:hover,
 .btn-light:focus {
-  background-color: #bea59b;
-  border-color: #fff;
-  color: #522806;
+  background-color: #522806;
+  border-color: #522806;
+  color: #fff;
 }
 
 .btn-banner {
@@ -72,7 +81,7 @@ html {
 .btn-banner:hover,
 .btn-banner:focus {
   background-color: #bea59b;
-  border-color: #fff;
+  border-color: #bea59b;
   color: #522806;
 }
 
